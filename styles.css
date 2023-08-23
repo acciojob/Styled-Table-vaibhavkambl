@@ -1,1 +1,26 @@
 /* your code */
+# {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        th, td {
+            border: 2px solid gray;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: blue;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: lightslategray;
+        }
+
+        tr:nth-child(odd) {
+            background-color: white;
+        }
+}
